@@ -14,7 +14,7 @@ def mark_as_complete(index):
     if 0 <= index < len(todos):
         todos[index]["complete"] = True
     else:
-        print("Invalid index!")1
+        print("Invalid index!")
 
 if __name__ == "__main__":
     while True:
